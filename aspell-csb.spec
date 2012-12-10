@@ -61,3 +61,41 @@ rm -fr $RPM_BUILD_ROOT
 %{_libdir}/aspell-%{aspell_ver}/*
 
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0.01.1-6mdv2011.0
++ Revision: 616608
+- the mass rebuild of 2010.0 packages
+
+* Tue Sep 01 2009 Thierry Vignaud <tv@mandriva.org> 0.01.1-5mdv2010.0
++ Revision: 423965
+- rebuild
+
+* Thu Jun 19 2008 Thierry Vignaud <tv@mandriva.org> 0.01.1-4mdv2009.0
++ Revision: 226180
+- rebuild
+
+* Sun Mar 09 2008 Anssi Hannula <anssi@mandriva.org> 0.01.1-3mdv2008.1
++ Revision: 182408
+- provide enchant-dictionary
+
+* Thu Dec 20 2007 Olivier Blin <oblin@mandriva.com> 0.01.1-2mdv2008.1
++ Revision: 135824
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - s/Mandrake/Mandriva/
+
+
+* Mon Mar 05 2007 Oden Eriksson <oeriksson@mandriva.com> 0.01.1-2mdv2007.0
++ Revision: 132947
+- Import aspell-csb
+
+* Mon Mar 05 2007 Oden Eriksson <oeriksson@mandriva.com> 0.01.1-2mdv2007.1
+- disable debug packages
+
+* Tue Nov 29 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.01.1-1mdk
+- first version
+
