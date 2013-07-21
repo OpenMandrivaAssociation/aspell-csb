@@ -11,10 +11,10 @@
 
 Summary:       %{languageenglazy} files for aspell
 Name:          aspell-%{languagecode}
-Version:       0.01.1
-Release:       %mkrel 6
+Version:       0.02.0
+Release:       1
 Group:         System/Internationalization
-Source:        http://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/%{fname}-%{src_ver}.tar.bz2
+Source:        http://ftp.gnu.org/gnu/aspell/dict/csb/aspell6-csb-0.02-0.tar.bz2
 URL:		   http://aspell.net/
 License:	   GPL
 BuildRoot:     %{_tmppath}/%{name}-%{version}-root
@@ -98,4 +98,5 @@ rm -fr $RPM_BUILD_ROOT
 
 * Tue Nov 29 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.01.1-1mdk
 - first version
+
 
