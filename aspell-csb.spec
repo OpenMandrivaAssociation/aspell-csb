@@ -12,7 +12,7 @@
 Summary:       %{languageenglazy} files for aspell
 Name:          aspell-%{languagecode}
 Version:       0.02.0
-Release:       1
+Release:       2
 Group:         System/Internationalization
 Source:        http://ftp.gnu.org/gnu/aspell/dict/csb/aspell6-csb-0.02-0.tar.bz2
 URL:		   http://aspell.net/
