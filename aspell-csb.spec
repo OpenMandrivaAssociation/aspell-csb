@@ -15,7 +15,7 @@ Version:       0.02_0
 Release:       1
 Group:         System/Internationalization
 Source:        http://ftp.gnu.org/gnu/aspell/dict/csb/aspell6-csb-0.02-0.tar.bz2
-URL:		   http://aspell.net/
+URL:		   https://aspell.net/
 License:	   GPL
 BuildRoot:     %{_tmppath}/%{name}-%{version}-root
 Provides: spell-%{languagecode}
